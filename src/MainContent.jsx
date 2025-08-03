@@ -13,20 +13,12 @@ import {
 import { BiLogoMongodb } from "react-icons/bi";
 import { SiTailwindcss, SiMongodb, SiFirebase, SiGmail, SiExpress, SiRender } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
-import Sudoku from "./assets/sudoko.png"
+import Sudoku from "./assets/Sudoku.png"
 import Pokemon from "./assets/Pokrmon.png"
 import Ecommmerce from "./assets/Ecommerce.png"
 import Jewellery from "./assets/Jewellery.png"
 import Movies from "./assets/Sereachmovie.png"
 import Tmdb from "./assets/TMDB.png";
-
-
-// import poke from "./assets/Poke.png";
-// import Flip from "./assets/FlipGame.png";
-// import DashBoard from "./assets/Dashboard.png";
-// import tanishq from "./assets/Tanishq.png";
-// import Ecommerce from "./assets/Ecommerce.png";
-// import TMDB from "./assets/TMDB.png";
 
 
 function MainContent({ activeSection }) {
