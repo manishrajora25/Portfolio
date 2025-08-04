@@ -462,7 +462,8 @@ const IntroSection = ({ activeSection }) => {
               transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
             >
               <motion.div 
-                className="w-full h-full rounded-full bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 p-1 opacity-80"
+              
+
                 animate={{
                   background: [
                     'linear-gradient(0deg, #f97316, #ec4899, #8b5cf6)',
