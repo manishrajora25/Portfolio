@@ -1,2 +1,21 @@
 @import "tailwindcss";
 /* update all thee files */
+
+#typingName {
+    display: inline-block;
+    font-size: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0ch;
+    animation: typingName 3s steps(20) infinite alternate-reverse;
+  }
+  
+  @keyframes typingName {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 15ch; /* Adjust as per text length */
+    }
+  }
+  

@@ -11,7 +11,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { BiLogoMongodb } from "react-icons/bi";
-import { SiTailwindcss, SiMongodb, SiFirebase, SiGmail, SiExpress, SiRender } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiFirebase, SiGmail, SiExpress, SiRender, SiVercel, SiCloudinary } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import Sudoku from "./assets/Sudoku.png"
 import Pokemon from "./assets/Pokrmon.png"
@@ -91,6 +91,19 @@ function MainContent({ activeSection }) {
               <SkillIcon
               icon={<SiRender />}
               name="Render"
+              color="text-yellow-500"
+            />
+
+            <SkillIcon
+              icon={<SiVercel />}
+              name="Vercel"
+              color="text-yellow-500"
+            />
+
+
+             <SkillIcon
+              icon={<SiCloudinary />}
+              name="cloudinary"
               color="text-yellow-500"
             />
 
